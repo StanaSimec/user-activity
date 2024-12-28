@@ -13,7 +13,7 @@ public class Payload {
 
     @JsonCreator
     Payload(@JsonProperty("ref_type") String refType, @JsonProperty("action") String action,
-            @JsonProperty("commits") Commit[] commits){
+            @JsonProperty("commits") Commit[] commits) {
         this.refType = refType;
         this.action = action;
         this.commits = commits;

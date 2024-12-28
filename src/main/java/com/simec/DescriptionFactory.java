@@ -4,7 +4,8 @@ import com.simec.model.Event;
 
 class DescriptionFactory {
 
-    private DescriptionFactory(){}
+    private DescriptionFactory() {
+    }
 
     static String forEvent(Event event) {
         String repoName = event.getRepository().getName();
