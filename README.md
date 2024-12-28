@@ -3,11 +3,12 @@
 ### Solution for the [user-activity](https://roadmap.sh/projects/github-user-activity) project from [roadmap.sh](https://roadmap.sh).
 
 ## Project setup
-### Clone project
+### Open project
 ```
 $ git clone <project url>
+$ cd user-activity
 ```
-### Run create jar gradle task
+### Run Jar Gradle task
 ```
 $ ./gradlew jar
 ```
