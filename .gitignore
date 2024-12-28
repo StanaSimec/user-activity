@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Build ###
+user-activity-1.0-SNAPSHOT.jar
